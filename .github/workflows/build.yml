@@ -6,12 +6,9 @@
 
 name: Build SailfishOS dhd
 
-on: 
-  release:
-    types: [published]
-  push:
-    branches: 
-      - master
+on:
+  repository_dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: write
