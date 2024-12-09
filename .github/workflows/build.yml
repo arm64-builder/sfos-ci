@@ -4,11 +4,14 @@
 # Author: 0312birdzhang
 #=================================================
 
-name: Build SailfishOS dhd
+name: Build SailfishOS dhd--test mido
 
-on:
-  repository_dispatch:
-  workflow_dispatch:
+on: 
+  release:
+    types: [published]
+  push:
+    branches: 
+      - mido
 
 permissions:
   contents: write
