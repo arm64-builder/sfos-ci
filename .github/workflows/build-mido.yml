@@ -4,7 +4,7 @@
 # Author: 0312birdzhang
 #=================================================
 
-name: Build SailfishOS dhd
+name: Build SailfishOS dhd-mido-zhang
 
 on:
   repository_dispatch:
