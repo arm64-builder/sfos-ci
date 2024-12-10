@@ -150,7 +150,7 @@ jobs:
         path: ${{env.ANDROID_ROOT}}/SailfishOScommunity-release-*/sailfishos-*-${{env.DEVICE}}*.zip
 
     - name: Upload image to Release
-      uses: ncipollo/release-action@mido
+      uses: ncipollo/release-action@main
       if: steps.upload-action.outputs.status == 'success' && !cancelled()
       with:
         tag: sailfishos_for_mido
