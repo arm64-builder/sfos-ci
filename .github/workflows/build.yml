@@ -158,4 +158,4 @@ jobs:
         allowUpdates: true
         token: ${{ secrets.GITHUB_TOKEN }}
         body: |
-          This is mido sailfishos 5.0.0.29
+          This is mido sailfishos 5.0.0.29 armv7hl
